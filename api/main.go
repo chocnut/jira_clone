@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/chocnut/jira_clone/controllers"
+	"github.com/chocnut/jira_clone/api/controllers"
 )
 
 func main() {

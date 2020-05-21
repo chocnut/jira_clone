@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/chocnut/jira_clone/models"
+	"github.com/chocnut/jira_clone/api/models"
 )
 
 func GetAllProjects(w http.ResponseWriter, r *http.Request) {
