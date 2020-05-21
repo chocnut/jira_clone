@@ -22,7 +22,7 @@ func main() {
 	handler := http.NewServeMux()
 
 	handler.HandleFunc("/ping", controllers.Ping)
-	handler.HandleFunc("/projects", controllers.GetAllProject)
+	handler.HandleFunc("/projects", controllers.GetAllProjects)
 
 	err := http.ListenAndServe(port, handler)
 
