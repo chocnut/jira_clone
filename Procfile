@@ -1,1 +1,1 @@
-web: bin/jira_clone
+web: jira_clone
