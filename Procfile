@@ -1,1 +1,1 @@
-web: api/jira_clone
+web: api
