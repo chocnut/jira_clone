@@ -19,7 +19,7 @@ func GetAllProjects(w http.ResponseWriter, r *http.Request) {
 
 	projects := []models.Project{}
 
-	db.Select(&projects, "SELECT id FROM projects")
+	db.Select(&projects, "SELECT * FROM projects")
 
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
